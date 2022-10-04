@@ -51,4 +51,20 @@ Jenkins required Java development kit to work.
 
 ![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-jenkins-plugin.png)
 
+**Create Jenkins job (Freestyle Project)**
+
+From the Jenkins web console, click "New Item" and create a "Freestyle project"
+Install **Publish over ssh** plugin so that the project can be copied to the NFS server.
+
+![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-plugins.png)
+
+Configure the job/project to copy artifacts over to NFS server.
+
+![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-publish-over-ssh.png)
+
+![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-jenkins-ssh.png)
+
+![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-successful-build.png)
+
+![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-jenkins-pipeline-ssh-testing.png)
 
