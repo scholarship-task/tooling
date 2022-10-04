@@ -44,3 +44,9 @@ Jenkins required Java development kit to work.
     sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 ![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-jenkins-ui.png)
+
+![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-jenkins-user-creation.png)
+
+![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-jenkins-plugin.png)
+
+
