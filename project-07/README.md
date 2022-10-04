@@ -171,6 +171,8 @@ Exports mounts for webservers and give the necessary permission and ownerships t
 
     sudo systemctl restart nfs-server.service
 ```
+ ![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-nfs-server.png)
+ ![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-nfs-server2.png)
 
 **Configure access to NFS for clients within the same subnet**
 Edit the /etc/exports file with the following:
@@ -231,6 +233,8 @@ Mount /var/www/ from the Web Server to the NFS Server and verify that it is succ
     sudo mount -t nfs -o rw,nosuid <NFS-Server-Private-IP-Address>:/mnt/apps /var/www
     df -h
 ```
+ ![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-mount-logs.png)
+ ![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-mount-nfs.png)
 
 Persist the changes using the **etc/fstab** file
 
@@ -241,10 +245,9 @@ Persist the changes using the **etc/fstab** file
     172.31.29.152:/mnt/apps /var/www nfs defaults 0 0
 
  ```
-
+ ![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-etc-fstab.png)
+ ![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-etc-fstab2.png)
  ### Install Apache and PHP on the servers   
-
-
 
 **Install PHP and it's package dependencies**
 
@@ -276,8 +279,14 @@ The SELinux Policy is the set of rules that guide the SELinux security engine. I
 Use rsync command to copy the file from your local PC to any of the server and it will be available on all the servers
 
     rsync -a ~/tooling/  ec2-user@54.196.252.117:/var/www/
+    
+![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-tooling-rsync.png)
 
 Update the **functions.php** file with the database credentials
+
+![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-functions.php.png)
+
+
 Pass the **tooling-db.sql** from the webserver granted access to communicate with the DB server
 
 Open the website in your browser http://<Web-Server-Public-IP-Address-or-Public-DNS-Name>/index.php to access the app
