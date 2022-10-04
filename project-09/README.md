@@ -34,6 +34,8 @@ Jenkins required Java development kit to work.
     sudo systemctl status jenkins
 ```
 
+![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-09/screenshots/project9-jenkins-status.png)
+
 **Access Jenkins UI**
 - Open your browser
 - http://JENKINS-SERVER-ADDRESS:8080
