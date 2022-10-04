@@ -14,16 +14,12 @@ This project implements a three-tier architecture extending the previous project
 
 ![Project Architecture Diagram](https://www.darey.io/wp-content/uploads/2021/07/Tooling-Website-Infrastructure.png)
 
-### Volume Creation and Attachment to EC2 Instances
+### EC2 Instances
 
-EBS Volumes are use as file system for storage, databases or applications that require access to block level storage. This is used for data persistency, when the EC2 instances is terminated the data on it is deleted and EBS gives us the ability to be able to have our data even when the instance is no longer available.
+![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7--ec2-list.png)
 
-- Login to AWS account
-- Type EC2 in the services
-- From EC2 Dashboard, from the left hand side, click on volumes
-- Follow the screen to create your desired capacity
-- Make sure you the volume is created in the same Availability Zone of the instance you want to attached the volume to
-- Select a volume from the volume dashboard, click on attach
+
+-Create EC2 Instance for the server and attach 3 EBS volumes of 10GB capacity each to be used for app, log and opt data for the NFS Server.
 
 ### Configure the EC2 instances attachment as required for NFS server
 
@@ -91,6 +87,7 @@ View the complete settings about the PV, LV, VG
     sudo vgdisplay -v #view complete setup - VG, PV, and LV
     sudo lsblk 
 ```
+![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-lsblk.png)
 
 Format the logical volumes with mkfs to build a linux file system, **xfs** is the file extension.
 
@@ -124,6 +121,7 @@ Mount **directory** on the logical volume
     sudo mount /dev/nfsserver-vg/lv-logs /mtn/logs
     sudo mount /dev/nfsserver-vg/lv-opt /mtn/opt
 ```
+![EC2 Instances](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-mount.png)
 
 Update **/etc/fstab** file so that the mount configuration will persist after restart of the server.
 The fstab file typically lists all available disks and disk partitions, and indicates how they are to be initialized or otherwise integrated into the overall system's file system.
