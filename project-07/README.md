@@ -289,7 +289,9 @@ Open the website in your browser http://<Web-Server-Public-IP-Address-or-Public-
 
 ## Screenshots
 
-
+![App User Interface](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-app-ui.png)
+![App User Interface](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-app-ui2.png)
+![App User Interface](https://github.com/scholarship-task/tooling/blob/master/project-07/screenshots/project7-app-ui-3.png)
 
 
 ## Challenges
