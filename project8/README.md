@@ -1,8 +1,5 @@
 # Load Balancer Solution with Apache
 
-
-# DevOps Tooling Website Solution
-
 This project add a load-balancer to the existing architecture so that the user will only be able to access the service using only one IP address. 
 "Load balancing refers to efficiently distributing incoming network traffic across a group of backend servers, also known as a server farm or server pool.
 
