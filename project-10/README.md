@@ -95,7 +95,7 @@ Transport Layer Security (TLS) encrypts data sent over the Internet to ensure th
 
 
 ## Screenshots
-![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project8/screenshots/project8-ui-dashboard.png)
+![App Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-10/screenshots/project10-app-ui.png)
 
 ## Final Architecture Diagram with Apache Load Balancer
 ![Apache Load Balancer](https://darey.io/wp-content/uploads/2021/07/project8_final.png)
