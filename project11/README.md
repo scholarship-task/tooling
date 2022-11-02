@@ -7,6 +7,8 @@ Automating Infrastructure Configuration using Ansible. Ansible is an open source
 
 Architecture Diagram
 
+![Architecture diagram](https://darey.io/wp-content/uploads/2021/07/bastion.png)
+
 
 ### Install and configure Ansible on EC2 instances
 Create an EC2 instance and enable SSH access on port 22
@@ -74,7 +76,15 @@ ansible-playbook -i inventory/dev.yml playbooks/common.yml
 
 
 #### Screenshots
+![Jenkins Server](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-jenkins-server.png)
+![Ansible installation](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible-installation.png)
+![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible.png)
+![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible-files.png)
+![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible-github.png)
 
-![Architecture diagram](hhttps://darey.io/wp-content/uploads/2021/07/bastion.png)
+![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible-playbook-jenkins-ansible-server.png)
+![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-inventory-file.png)
+![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-wireshark-ec2.png)
+![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-wireshark-ubuntu.png)
 
 
