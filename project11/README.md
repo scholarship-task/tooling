@@ -81,10 +81,10 @@ ansible-playbook -i inventory/dev.yml playbooks/common.yml
 ![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible.png)
 ![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible-files.png)
 ![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible-github.png)
-
-![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible-playbook-jenkins-ansible-server.png)
 ![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-inventory-file.png)
 ![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-wireshark-ec2.png)
 ![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-wireshark-ubuntu.png)
+![Ansible](https://github.com/scholarship-task/tooling/blob/master/project11/screenshots/project11-ansible-playbook-jenkins-ansible-server.png)
+
 
 
