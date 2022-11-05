@@ -301,3 +301,19 @@ stage('SonarQube Quality Gate') {
 ```
 
 ### Project Screenshots
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-blue-ocean-ui.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-jenkins-blue-ocean-ui.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-jenkins-blue-ocean-ui2.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-jenkins-pipeline.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-plugins.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-phpdev.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-plot.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-jfrog-artifact.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-jfrog.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-Ansible.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-ansible-playbook-jenkins.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-deploy-sonarqube.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-deploy-sonarqube.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-sonarqube-code.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-sonarqube-2.png)
+![Screenshots](https://github.com/scholarship-task/tooling/blob/master/project-14/screenshots/project14-sonarqube-quality-gate.png)
