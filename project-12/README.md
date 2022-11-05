@@ -13,7 +13,6 @@ Steps
 - Change permission of the directory
 - On Jenkin server, create a new Freestyle project and name it save_artifacts.
 - Configure the job to copy the artifact created from the pipeline to the folder created above.
-- 
 
 ```
 sudo mkdir /home/ubuntu/ansible-config-artifact
@@ -144,3 +143,10 @@ updated site.yml
 ```
 
 ### Project Screenshots
+![Copy Artifacs](https://github.com/scholarship-task/tooling/blob/master/project-12/screenshots/project12-jenkins-plugin-copy-artifact.png)
+![Copy Artifacs](https://github.com/scholarship-task/tooling/blob/master/project-12/screenshots/project12-copy-artifact.png)
+![Copy Artifacs](https://github.com/scholarship-task/tooling/blob/master/project-12/screenshots/project12-save-artifact.png)
+![Copy Artifacs](https://github.com/scholarship-task/tooling/blob/master/project-12/screenshots/project12-save-artifacts.png)
+![Copy Artifacs](https://github.com/scholarship-task/tooling/blob/master/project-12/screenshots/project12-ansible-playbook.png)
+![Copy Artifacs](https://github.com/scholarship-task/tooling/blob/master/project-12/screenshots/project12-ansible-uat-servers.png)
+![Copy Artifacs](https://github.com/scholarship-task/tooling/blob/master/project-12/screenshots/project12-app-ui.png)
